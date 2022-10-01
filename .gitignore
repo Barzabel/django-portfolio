@@ -1,1 +1,6 @@
 secrets.py
+*.log
+*.pot
+*.pyc
+__pycache__/
+/static/
