@@ -4,3 +4,5 @@ secrets.py
 *.pyc
 __pycache__/
 /static/
+db.sqlite3
+/media/
