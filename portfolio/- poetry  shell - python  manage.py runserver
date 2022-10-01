@@ -1,0 +1,93 @@
+Microsoft Windows [Version 10.0.25131.1000]                                                                                   
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.                                                        
+                                                                                                                              
+C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio>poetry shell                                            
+Spawning shell within C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio\.venv                             
+Microsoft Windows [Version 10.0.25131.1000]                                                                                   
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.                                                        
+                                                                                                                              
+C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio>python manage.py runserver                              
+Watching for file changes with StatReloader                                                                                   
+Performing system checks...                                                                                                   
+                                                                                                                              
+System check identified no issues (0 silenced).                                                                               
+September 29, 2022 - 12:32:56                                                                                                 
+Django version 4.1.1, using settings 'portfolio.settings'                                                                     
+Starting development server at http://127.0.0.1:8000/                                                                         
+Quit the server with CTRL-BREAK.                                                                                              
+Not Found: /                                                                                                                  
+[29/Sep/2022 12:33:07] "GET / HTTP/1.1" 404 2188                                                                              
+Not Found: /favicon.ico                                                                                                       
+[29/Sep/2022 12:33:08] "GET /favicon.ico HTTP/1.1" 404 2239                                                                   
+Not Found: /                                                                                                                  
+[29/Sep/2022 12:33:12] "GET / HTTP/1.1" 404 2188                                                                              
+[29/Sep/2022 12:33:19] "GET /admin/ HTTP/1.1" 200 5124                                                                        
+[29/Sep/2022 12:33:19] "GET /static/admin/css/base.css HTTP/1.1" 304 0                                                        
+[29/Sep/2022 12:33:19] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0                                                   
+[29/Sep/2022 12:33:19] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0                                                 
+[29/Sep/2022 12:33:19] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0                                                   
+[29/Sep/2022 12:33:19] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0                                                  
+[29/Sep/2022 12:33:19] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0                                                       
+[29/Sep/2022 12:33:19] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0                                                   
+[29/Sep/2022 12:33:19] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0                                                
+[29/Sep/2022 12:33:19] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0                                             
+[29/Sep/2022 12:33:19] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0                                     
+[29/Sep/2022 12:33:19] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0                                      
+[29/Sep/2022 12:33:19] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0                                   
+[29/Sep/2022 12:33:20] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392                                           
+[29/Sep/2022 12:33:23] "GET /admin/auth/user/ HTTP/1.1" 200 9349                                                              
+[29/Sep/2022 12:33:23] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0                                                 
+[29/Sep/2022 12:33:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0                                                   
+[29/Sep/2022 12:33:23] "GET /static/admin/js/core.js HTTP/1.1" 304 0                                                          
+[29/Sep/2022 12:33:23] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0                                          
+[29/Sep/2022 12:33:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0                                    
+[29/Sep/2022 12:33:23] "GET /static/admin/js/actions.js HTTP/1.1" 304 0                                                       
+[29/Sep/2022 12:33:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3343                                                                 
+[29/Sep/2022 12:33:23] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0                                                   
+[29/Sep/2022 12:33:23] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0                                                        
+[29/Sep/2022 12:33:24] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0                                        
+[29/Sep/2022 12:33:24] "GET /static/admin/js/filters.js HTTP/1.1" 304 0                                                       
+[29/Sep/2022 12:33:24] "GET /static/admin/img/search.svg HTTP/1.1" 200 458                                                    
+[29/Sep/2022 12:33:24] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0                                                    
+[29/Sep/2022 12:33:24] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0                                                 
+[29/Sep/2022 12:33:24] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097                                            
+[29/Sep/2022 12:33:31] "GET /admin/portfol/project/ HTTP/1.1" 200 6565                                                        
+[29/Sep/2022 12:33:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3343                                                                 
+[29/Sep/2022 12:33:33] "GET /admin/portfol/project/2/change/ HTTP/1.1" 200 7949                                               
+[29/Sep/2022 12:33:33] "GET /static/admin/css/forms.css HTTP/1.1" 304 0                                                       
+[29/Sep/2022 12:33:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3343                                                                 
+[29/Sep/2022 12:33:33] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0                                              
+[29/Sep/2022 12:33:33] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0                                                     
+[29/Sep/2022 12:33:33] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0                                                   
+[29/Sep/2022 12:34:29] "GET /admin/portfol/project/ HTTP/1.1" 200 6565                                                        
+[29/Sep/2022 12:34:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3343                                                                 
+C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio\portfolio\urls.py changed, reloading.                   
+Watching for file changes with StatReloader                                                                                   
+Performing system checks...                                                                                                   
+                                                                                                                              
+System check identified no issues (0 silenced).                                                                               
+September 29, 2022 - 12:50:17                                                                                                 
+Django version 4.1.1, using settings 'portfolio.settings'                                                                     
+Starting development server at http://127.0.0.1:8000/                                                                         
+Quit the server with CTRL-BREAK.                                                                                              
+Internal Server Error: /                                                                                                      
+Traceback (most recent call last):                                                                                            
+  File "C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio\.venv\lib\site-packages\django\core\handlers\exc​‌​
+eption.py", line 55, in inner                                                                                                 
+    response = get_response(request)                                                                                          
+  File "C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio\.venv\lib\site-packages\django\core\handlers\bas​‌​
+e.py", line 197, in _get_response                                                                                             
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)                                                   
+  File "C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio\portfol\views.py", line 5, in home              
+    return render(request, 'portfol/index.html')                                                                              
+  File "C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio\.venv\lib\site-packages\django\shortcuts.py", li​‌​
+ne 24, in render                                                                                                              
+    content = loader.render_to_string(template_name, context, request, using=using)                                           
+  File "C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio\.venv\lib\site-packages\django\template\loader.p​‌​
+y", line 61, in render_to_string                                                                                              
+    template = get_template(template_name, using=using)                                                                       
+  File "C:\Users\507\OneDrive\Рабочий стол\Проекты hexlet\portfolio\portfolio\.venv\lib\site-packages\django\template\loader.p​‌​
+y", line 19, in get_template                                                                                                  
+    raise TemplateDoesNotExist(template_name, chain=chain)                                                                    
+django.template.exceptions.TemplateDoesNotExist: portfol/index.html                                                           
+[29/Sep/2022 12:50:23] "GET / HTTP/1.1" 500 77712                                                                             
