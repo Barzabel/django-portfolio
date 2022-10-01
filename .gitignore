@@ -3,8 +3,8 @@ secrets.py
 *.pot
 *.pyc
 __pycache__/
-**/static/
+**/static/**
 db.sqlite3
-**/media/
+**/media/**
 media/**
 static/**
